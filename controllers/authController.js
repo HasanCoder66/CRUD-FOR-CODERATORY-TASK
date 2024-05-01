@@ -51,7 +51,7 @@ export const login = async (req, res) => {
 
 }
 
-// forget api
+// FORGOT API
 // localhost:8800/api/forget/6502e7ec668ce982f7a727e1
 export const forget = async (req, res) => {
     if (req.body.userId === req.param.id || req.user.isAdmin) {
